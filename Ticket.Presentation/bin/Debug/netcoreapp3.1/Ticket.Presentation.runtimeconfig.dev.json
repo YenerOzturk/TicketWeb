@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/yener.ozturk/.dotnet/store/|arch|/|tfm|",
-      "/Users/yener.ozturk/.nuget/packages"
+      "/Users/yenerozturk/.dotnet/store/|arch|/|tfm|",
+      "/Users/yenerozturk/.nuget/packages"
     ]
   }
 }

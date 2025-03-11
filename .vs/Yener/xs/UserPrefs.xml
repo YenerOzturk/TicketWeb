@@ -1,26 +1,25 @@
-﻿<Properties StartupConfiguration="{7525B98C-3132-4FEF-AA5D-5742AF24C0C0}|Default" GitUserInfo="UsingGIT">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{7525B98C-3132-4FEF-AA5D-5742AF24C0C0}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Presentation.Ticket.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Ticket.Presentation/Views/Ticket/TicketList.cshtml">
     <Files>
-      <File FileName="Ticket.Presentation/Views/Ticket/TicketList.cshtml" Line="929" Column="1" />
-      <File FileName="Ticket.Presentation/wwwroot/js/custom.js" Line="34" Column="27" />
+      <File FileName="Ticket.Presentation/Views/Ticket/TicketList.cshtml" Line="1320" Column="71" />
+      <File FileName="Ticket.Presentation/wwwroot/js/custom.js" />
+      <File FileName="Ticket.Presentation/Views/Home/Index.cshtml" />
+      <File FileName="Ticket.Presentation/Views/Shared/_Layout.cshtml" />
+      <File FileName="Ticket.Presentation/Views/Shared/_Layout3.cshtml" />
+      <File FileName="Ticket.Presentation/Controllers/HomeController.cs" />
+      <File FileName="Ticket.Presentation/Models/CalendarEventModel.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Yener" expanded="True">
             <Node name="Presentation" expanded="True">
-              <Node name="Ticket.Presentation" expanded="True" selected="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="ViewModels" expanded="True" />
+              <Node name="Ticket.Presentation" expanded="True">
                 <Node name="Views" expanded="True">
-                  <Node name="Ticket" expanded="True" />
-                </Node>
-                <Node name="wwwroot" expanded="True">
-                  <Node name="js" expanded="True" />
+                  <Node name="Ticket" expanded="True">
+                    <Node name="TicketList.cshtml" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -29,11 +28,14 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Ticket.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/yener.ozturk/Projects/TicketWeb/Ticket.Presentation/Controllers/TicketController.cs" relfile="Ticket.Presentation/Controllers/TicketController.cs" line="360" column="1" />
-      <Breakpoint file="/Users/yener.ozturk/Projects/TicketWeb/Ticket.Presentation/Controllers/PublicController.cs" relfile="Ticket.Presentation/Controllers/PublicController.cs" line="46" column="1" />
-      <Breakpoint file="/Users/yener.ozturk/Projects/TicketWeb/Ticket.Presentation/Controllers/TicketController.cs" relfile="Ticket.Presentation/Controllers/TicketController.cs" line="367" column="1" />
+      <Breakpoint file="/Users/yenerozturk/Documents/GitHub/TicketWeb/Ticket.Presentation/Controllers/TicketController.cs" relfile="Ticket.Presentation/Controllers/TicketController.cs" line="360" column="1" />
+      <Breakpoint file="/Users/yenerozturk/Documents/GitHub/TicketWeb/Ticket.Presentation/Controllers/PublicController.cs" relfile="Ticket.Presentation/Controllers/PublicController.cs" line="46" column="1" />
+      <Breakpoint file="/Users/yenerozturk/Documents/GitHub/TicketWeb/Ticket.Presentation/Controllers/TicketController.cs" relfile="Ticket.Presentation/Controllers/TicketController.cs" line="367" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

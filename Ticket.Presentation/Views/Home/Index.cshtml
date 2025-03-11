@@ -150,7 +150,7 @@
             data: data,
             success: function (result) {
 
-                if (result.isUpdate) {
+                if (!result.isUpdate) {
 
                     calendarElm.addEvent({
                         title: result.title,
@@ -281,7 +281,7 @@
                             if (element.hasClass('fc-day-grid-event')) {
                                 element.data('content', info.event.extendedProps.description);
                                 element.data('placement', 'top');
-                                KTApp.initPopover(element);
+                                //KTApp.initPopover(element);
                             } else if (element.hasClass('fc-time-grid-event')) {
                                 element.find('.fc-title').append('<div class="fc-description">' + info.event.extendedProps.description + '</div>');
                             } else if (element.find('.fc-list-item-title').lenght !== 0) {

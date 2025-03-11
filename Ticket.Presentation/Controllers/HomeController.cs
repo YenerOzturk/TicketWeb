@@ -83,7 +83,7 @@ namespace Ticket.Presentation.Controllers
                 description = model.Description,
                 title = model.Title +" - "+ userName,
                 className = colors[rnd.Next(0, 2)],
-                isUpdate = model.Id == 0
+                isUpdate = model.Id > 0
             };
 
             return Ok(retval);

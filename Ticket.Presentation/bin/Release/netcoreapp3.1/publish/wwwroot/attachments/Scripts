@@ -1,0 +1,29 @@
+SELECT * FROM 
+(
+SELECT i_expr_id FROM mktg_expression A WITH (NOLOCK) 
+WHERE NOT EXISTS 
+( 
+	SELECT * FROM mktg_target B WITH (NOLOCK) WHERE A.i_expr_id=B.i_target_expr_id 
+)
+AND u_expr_category= N'TargetCondition'
+) As DeleteRecords
+
+LEFT OUTER JOIN Stg2Mergemktg_expression B ON (DeleteRecords.i_expr_id=B.i_expr_id)
+
+LEFT OUTER JOIN KampusExpression C ON (DeleteRecords.i_expr_id=C.i_expr_id)
+
+LEFT OUTER JOIN mktg_expression_depends D ON (DeleteRecords.i_expr_id=D.i_expr_id)
+
+LEFT OUTER JOIN Stg2mktg_expression E ON (DeleteRecords.i_expr_id=E.i_expr_id)
+
+
+WHERE B.i_expr_id is null AND C.i_expr_id is null AND D.i_expr_id is null AND E.i_expr_id is null
+
+
+
+SELECT A.i_expr_id,b.i_campitem_id,A.u_expr_name FROM mktg_expression A WITH (NOLOCK) 
+INNER JOIN (
+SELECT i_target_expr_id,i_campitem_id FROM mktg_target WITH (NOLOCK) WHERE not exists (SELECT * FROM mktg_campaign_item WITH (NOLOCK) WHERE i_camp_id=mktg_target.i_campitem_id)
+) 
+As B
+ON A.i_expr_id=B.i_target_expr_id
