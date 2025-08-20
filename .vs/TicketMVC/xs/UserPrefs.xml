@@ -1,4 +1,6 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{7525B98C-3132-4FEF-AA5D-5742AF24C0C0}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Ticket.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Ticket.Presentation/Controllers/LoginController.cs">
     <Files>
@@ -13,24 +15,15 @@
       <File FileName="Ticket.Presentation/appsettings.json" />
       <File FileName="Ticket.Presentation/Program.cs" />
       <File FileName="Ticket.Presentation/Startup.cs" />
-      <File FileName="Ticket.Presentation/Controllers/JsonObjectController.cs" Line="1" Column="1" />
-      <File FileName="Ticket.Presentation/Helpers/HttpClientHelper.cs" Line="16" Column="62" />
+      <File FileName="Ticket.Presentation/Controllers/JsonObjectController.cs" />
+      <File FileName="Ticket.Presentation/Helpers/HttpClientHelper.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="TicketWeb" selected="True">
-            <Node name="Presentation">
-              <Node name="Ticket.Presentation">
-                <Node name="Controllers" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Presentation.Ticket.Presentation PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -39,5 +32,4 @@
       <Breakpoint file="/Users/yenerozturk/Documents/GitHub/TicketWeb/Ticket.Presentation/Controllers/TicketController.cs" relfile="Ticket.Presentation/Controllers/TicketController.cs" line="367" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
